@@ -126,7 +126,7 @@ pizza_toppings.values
 # => [true, "mushroom"]
 ```
 
-It has the `empty?` method to check if there are no key-value pairs defined on
+It has the `#empty?` method to check if there are no key-value pairs defined on
 the hash:
 
 ```rb
@@ -136,7 +136,7 @@ pizza_toppings.empty?
 # => true
 ```
 
-Lastly, it has the `merge` method to join together multiple hashes:
+Lastly, it has the `#merge` method to join together multiple hashes:
 
 ```rb
 more_toppings = { topping2: "peppers", topping3: "onions" }

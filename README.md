@@ -61,7 +61,7 @@ my_hash
 ```
 
 Unlike JavaScript, you cannot use the dot notation to access keys on hashes
-&mdash; only the bracket notation will work:
+— only the bracket notation will work:
 
 ```rb
 my_hash = { key1: "value1", key2: "value2" }
@@ -69,7 +69,7 @@ my_hash.key2
 # NoMethodError (undefined method `key2' for {:key1=>"value1", :key2=>"value2"}:Hash)
 ```
 
-This is because dot notation has a different meaning in Ruby &mdash; dot
+This is because dot notation has a different meaning in Ruby — dot
 notation is only used for calling _methods_ on objects, which is why the code
 above throws a `NoMethodError`.
 

@@ -29,7 +29,7 @@ key/value pairs enclosed in curly braces:
 
 Using the JSON-style syntax above will create a hash with **Symbols** for keys.
 To access data from this hash, you can use the bracket notation and pass in the
-symbol for they key you are trying to access:
+symbol for the key you are trying to access:
 
 ```rb
 my_hash = { key1: "value1", key2: "value2" }
@@ -151,10 +151,10 @@ the [Ruby Hash documentation][hash docs].
 ## Conclusion
 
 Hashes are one of the most common data structures you'll work with in Ruby,
-along with Arrays. You've already seen what kind of scenarios you'd use objects
-in JavaScript, so you should be comfortable using hashes in similar situations
-in your Ruby code. Keep the documentation handy so you can take advantage of
-some of the special methods Ruby has to offer as well!
+along with Arrays. You've already seen the kinds of scenarios where you'd use
+objects in JavaScript, so you should be comfortable using hashes in similar
+situations in your Ruby code. Keep the documentation handy so you can take
+advantage of some of the special methods Ruby has to offer as well!
 
 ## Resources
 
